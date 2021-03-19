@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap");
 
 html {
-  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
   font-size: 18px;
 }
 body {
@@ -79,9 +79,9 @@ nav {
   width: 100%;
   left: 0;
   top: 46%;
-  -webkit-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   color: #fff;
 }
 .cover-container .cover-layer h1 {
@@ -90,9 +90,9 @@ nav {
   letter-spacing: 0.4rem;
 }
 .cover-container video::-webkit-media-controls {
-  display:none;
+  display: none;
 }
-#coverVideo{
+#coverVideo {
   position: absolute;
   right: 0;
   top: 0;
@@ -102,7 +102,7 @@ nav {
   background-position: center center;
   background-size: contain;
   object-fit: cover; /*cover video background */
-  z-index:3;
+  z-index: 3;
 }
 
 /* PAGE-CONTAINER */
@@ -115,7 +115,6 @@ nav {
   /* width: 1360px; */
   width: 100%;
 }
-
 
 /* TEST-CONTAINER */
 
@@ -158,7 +157,7 @@ nav {
   margin-right: 4rem;
   font-size: 4rem;
   font-weight: 600;
-  color: #FBAF42;
+  color: #fbaf42;
 }
 .first-desc-desc {
   margin-left: 4rem;
@@ -220,24 +219,28 @@ nav {
 .footer-email {
   font-size: 3rem;
   font-weight: 400;
+  cursor: pointer;
 }
 .footer-con {
   font-size: 2rem;
   font-weight: 300;
   margin-top: 2.5rem;
+  cursor: pointer;
 }
 .footer-con span {
   font-size: 1rem;
   margin-left: 0.3rem;
   color: #888888;
 }
-.footer-tel, .footer-fax {
+.footer-tel,
+.footer-fax {
   display: flex;
 }
 .footer-address {
   font-size: 2rem;
   font-weight: 300;
   margin-top: 2.5rem;
+  cursor: pointer;
 }
 .footer-address span {
   font-size: 1rem;
@@ -251,20 +254,14 @@ nav {
   margin-right: 2rem;
 }
 
-
 /* 반응형 */
 
 /* 1025 to 1540 LAPTOP */
 @media (min-width: 1025px) and (max-width: 1540px) {
-
-  
-} 
+}
 /* 768 to 1024 TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  
 }
 /* 0 to 767px MOBILE */
 @media (max-width: 768px) {
-
-}   
+}
