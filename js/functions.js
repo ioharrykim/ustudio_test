@@ -132,5 +132,23 @@
       });
       headerL.html("<img src='./images/logo_w.png' alt='logo_w'>");
     }
+
+// slick
+$('.banner-slide').slick({
+  slide: 'div',
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  // arrow: true,
+  // dots: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  speed: 1000,
+  draggable: false,
+  fade: true,
+  easing: 'easeInOutQuint',
+  pauseOnHover: false,
+});
+
   });
 })(jQuery);
